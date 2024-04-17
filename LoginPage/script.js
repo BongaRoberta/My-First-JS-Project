@@ -1,6 +1,6 @@
-const container = document.getElementById('container');
-const registerBtn = document.getElementById('register');
-const loginBtn = document.getElementById('login');
+var container = document.getElementById('container');
+var registerBtn = document.getElementById('register');
+var loginBtn = document.getElementById('login');
 
 registerBtn.addEventListener('click',() =>{
     container.classList.add("active");
